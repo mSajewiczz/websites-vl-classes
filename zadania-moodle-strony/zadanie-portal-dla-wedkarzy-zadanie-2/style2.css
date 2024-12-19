@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gramond';
+}
+
+.banner, .footer {
+    background-color: #3CB371;
+    color: #fff;
+    padding: 10px;
+    font-size: 130%;
+    text-align: center;   
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.left {
+    width: 55%;
+    height: 450px;
+    background-color: #FAEBD7;
+}
+
+.right {
+    width: 45%;
+    height: 450px;
+    background-color: #FAEBD7;
+}
+
+img {
+    padding: 3px;
+    margin: 15px;
+    border: 2px dashed #3CB371;
+    width: 500px;
+}

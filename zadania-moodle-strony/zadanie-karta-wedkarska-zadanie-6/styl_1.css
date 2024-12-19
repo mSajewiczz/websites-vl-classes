@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia';
+}
+
+.banner {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.main {
+    padding: 100px;
+    background-color: lightblue;
+}
+
+.main h4 {
+    margin-bottom: 25px;
+}
+
+.main form input {
+    border: none;
+}
+
+.main form .adress {
+    width: 180px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .footer-element-one {
+    width: 20%;
+    background-color: dodgerblue;
+    height: 220px;
+    color: #fff;
+}
+
+.footer .footer-element-one h4 {
+    margin: 20px 0;
+}
+
+.footer .footer-element-one ul {
+    margin: 20px 40px;
+}
+
+.footer .footer-element-three p {
+    margin: 20px 0;
+}
+
+.footer .footer-element-three a {
+    padding: 10px;
+    border: 1px dashed DimGray;
+    background-color: gold;
+}
+
+.footer .footer-element-two, .footer .footer-element-three {
+    background-color: dodgerblue;
+    color: #fff;
+    width: 40%;
+    height: 220px;
+    text-align: center;
+}

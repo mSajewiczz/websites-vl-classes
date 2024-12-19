@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana';
+}
+
+.banner, .stopka {
+    padding: 20px;
+    background-color: #4682B4;
+    color: #fff;
+    font-size: 120%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #40E0D0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-box, .second-box {
+    background-color: #40E0D0;
+}
+
+.first-box {
+    width: 40%;
+    height: 550px;
+}
+
+.second-box {
+    width: 60%;
+    height: 550px;
+}
+
+img {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000080;
+}

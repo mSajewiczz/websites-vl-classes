@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tahoma", sans-serif;
+    background-color: Crimson;
+}
+
+.baner {
+    text-align: center;
+    height: 370px;
+    color: #fff;
+}
+
+.baner h2 {
+    letter-spacing: 7px;
+    padding: 10px;
+}
+
+.mecze {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mecze-element {
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mecze-element p {
+    margin: 20px 40px;
+}
+.data {
+    margin: 20px 0 !important;
+}
+
+.mecze-element:hover {
+    border: 1px solid white;
+}
+
+.info-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: WhiteSmoke;
+    height: 50px;
+}
+
+.info-main h2 {
+    letter-spacing: 7px;
+}
+
+.prawo-lewo {
+    display: flex;
+}
+
+.lewo {
+    background-color: WhiteSmoke;
+    width: 70%;
+    height: 230px;
+}
+
+
+.prawo {
+    background-color: WhiteSmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+}

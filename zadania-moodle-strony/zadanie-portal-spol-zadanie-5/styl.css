@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia';
+}
+
+.banner {
+    background-color: #005B4F;
+    color: #fff;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: #E1E2E1;
+    height: 400px;
+}
+
+
+ .friends{
+    overflow-y: auto;
+}
+
+.interests ul{
+    padding: 30px;
+}
+
+.interests, .friends {
+    width: 100%;
+}
+
+.interests h2, .friends h2 { 
+    text-align: center;
+    background-color: #00897B;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.person {
+    display: flex;
+    justify-content: start;
+    height: 150px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    gap: 30px;
+}
+
+.person .person-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-one, .footer-two {
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    background-color: #005B4F;
+    color: #fff;
+}
+.footer a {
+    color: #fff;
+}
